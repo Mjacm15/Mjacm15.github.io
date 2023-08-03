@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-cTXEzT7pJPF6FpxD96t54yE5ySxmVlW24e8aCIO75uqX9l/+9CWIqjI/6mX43eNv6GtEwrJ83UD+6xuVGoqzA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://kit.fontawesome.com/06a57ef321.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="header">
@@ -33,7 +35,17 @@
         <div>
           
         </div>
-     </section>
+    </section>
+
+     <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
     
 </body>
 </html>
